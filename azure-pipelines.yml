@@ -26,7 +26,7 @@ steps:
 - task: PowerShell@2
   inputs:
     targetType: 'inline'
-    script: 'npm run build.azure'
+    script: 'npm run build'
 
 - task: CopyFiles@2
   inputs:
