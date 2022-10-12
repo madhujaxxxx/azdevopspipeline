@@ -22,7 +22,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: 'npm install'
-- 
+
 - task: CopyFiles@2
   inputs:
     Contents: '**'
